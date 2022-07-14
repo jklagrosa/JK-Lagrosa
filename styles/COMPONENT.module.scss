@@ -3,7 +3,8 @@
 
 ._navigation_component_wrapper{
     padding: 0;
-    background-color: $WHITE;
+    background-color: transparent;
+    width: 100vw;
 
     h6{
         cursor: pointer;
@@ -29,7 +30,373 @@
 }
 
 ._component_wrapper_{
+    position: relative;
     padding: 4rem 2rem;
     width: 100vw;
-    background-color: red;
+    min-height: 100vh;
+    background-color: $WHITE;
+
+    // For Introduction.js file
+    ._introduction_box{
+        display: grid;
+        place-content: center;
+        transform: translateY(40%);
+
+
+        @media only screen and (max-width: 991px){
+            transform: translateY(50%);
+        }
+
+        @media only screen and (max-width: 700px){
+            transform: translateY(60%);
+        }
+
+
+
+        @media only screen and (max-width: 576px){
+            transform: translateY(70%);
+        }
+
+
+
+        @media only screen and (max-width: 456px){
+            transform: translateY(60%);
+        }
+
+
+        @media only screen and (max-width: 380px){
+            transform: translateY(50%);
+        }
+
+
+    
+        // background-color: red;
+        h1{
+            margin: 0;
+            font-size: 4.25rem;
+            // background-color: red;
+            color: $BLACK;
+            font-family: $HEADER_FONT;
+            font-weight: 900;
+            margin-bottom: 1rem;
+
+
+
+
+
+            @media only screen and (min-width: 2501px){
+          
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+           
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+              
+            }
+    
+            @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+               font-size: 4.5rem;
+            }
+
+
+            // ###################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media only screen and (max-width: 991px) { 
+                font-size: 3rem;
+            }
+
+            @media only screen and (max-width: 700px){
+                font-size: 2.5rem;
+            }
+
+
+            @media only screen and (max-width: 576px){
+                font-size: 2rem;
+            }
+
+
+            @media only screen and (max-width: 460px){
+                text-align: center;
+            }
+
+        }
+
+        h2{
+            margin: 0;
+            font-size: 2.25rem;
+            font-weight: 600;
+            color: $BLACK;
+            font-family: $HEADER_FONT;
+
+
+
+
+
+            @media only screen and (min-width: 2501px){
+          
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+           
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+              
+            }
+    
+            @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+               font-size: 2.5rem;
+            }
+
+
+            // ###################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media only screen and (max-width: 991px) { 
+                font-size: 1.8rem;
+            }
+
+
+            @media only screen and (max-width: 700px){
+                font-size: 1.5rem;
+            }
+
+
+            @media only screen and (max-width: 576px){
+                font-size: 1.25rem;
+            }
+
+
+
+            @media only screen and (max-width: 460px){
+                margin-bottom: 0.3rem;
+                text-align: center;
+            }
+
+
+        }
+
+        p{
+            margin: 0;
+            max-width: 800px;
+            width: 100%;
+            // background-color: red;
+            color: $BLACK;
+            font-size: 1.3rem;     
+            font-weight: 400;
+
+
+
+
+            @media only screen and (min-width: 2501px){
+          
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+           
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+              
+            }
+    
+            @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+               font-size: 1.5rem;
+            }
+
+
+            // ###################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media only screen and (max-width: 991px) { 
+                font-size: 1rem;
+                max-width: 600px;
+            }
+
+
+            @media only screen and (max-width: 700px){
+                max-width: 470px;
+            }
+
+            @media only screen and (max-width: 576px){
+                max-width: 400px;
+                font-size: 0.9rem;
+            }
+
+
+
+
+            @media only screen and (max-width: 460px){
+                text-align: center;
+            }
+
+
+        }
+
+        // BTN WRAPPER
+        ._introduction_box_btn_wrapper{
+            margin-top: 1.25rem;
+
+
+
+            @media only screen and (max-width: 460px){
+                text-align: center;
+                
+            }
+
+
+
+
+            button{
+                all: unset;
+                margin-right: 0.8rem;
+                cursor: pointer;
+                border-radius: 5px;
+                padding: 0.64rem 1rem;
+                transition: all 0.2s ease-in-out;
+                font-size: 1rem;
+                
+                &:nth-child(1){
+                    background-color: $BLACK;
+                    color: $WHITE;
+                   
+
+                    &:hover{
+                        background-color: $H_BLACK;
+                    }
+                }
+
+                &:nth-child(2){
+                    border: 1px solid $BLACK;
+                    color: $BLACK;
+                   
+
+                    &:hover{
+                        color: $WHITE;
+                        background-color: $BLACK;
+                    }
+                }
+
+
+
+
+                @media only screen and (min-width: 2501px){
+          
+                }
+        
+                @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+               
+                }
+        
+                @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+                  
+                }
+        
+                @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+                   font-size: 1.25rem;
+                }
+    
+    
+                // ###################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                @media only screen and (max-width: 991px){
+                    font-size: 0.9rem;
+                }
+
+
+                @media only screen and (max-width: 576px){
+                    font-size: 0.8rem;
+                }
+
+
+                
+
+            }
+        }
+        // END
+    }
+    // End
 }
+
+
+

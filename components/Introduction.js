@@ -6,11 +6,19 @@ const Introduction = () => {
     <>
       <div className={styles._component_wrapper_}>
         <Container fluid="lg" className="p-0">
-          Quis et laborum proident labore nisi sint. Sunt amet anim exercitation
-          adipisicing sint officia. Veniam dolore cupidatat reprehenderit
-          officia sint qui sunt eiusmod commodo tempor. Non ipsum laborum tempor
-          cupidatat irure. Ad tempor et ut sit do velit consequat esse Lorem
-          nisi. Laboris aute labore in eiusmod occaecat aliqua.
+          <div className={styles._introduction_box}>
+            <h2>JK LAGROSA</h2>
+            <h1>FRONT-END DEVELOPER</h1>
+            <p>
+              I designed and developed websites and web applications with a
+              focus on usability, accessibility, and performance.
+            </p>
+
+            <div className={styles._introduction_box_btn_wrapper}>
+              <button>View Projects</button>
+              <button>Contact Me</button>
+            </div>
+          </div>
         </Container>
       </div>
     </>

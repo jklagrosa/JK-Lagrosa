@@ -1,6 +1,80 @@
 @import "../styles/utils.module.scss";
 
 
+// OFFCANVAS CLASSES
+._navigation_offcanvas_wrapper{
+    max-width: 300px;
+    width: 100%;
+
+
+
+
+    @media only screen and (max-width: 576px){
+        max-width: 250px;
+    }
+
+
+
+
+
+    ._navigation_offcanvas_title{
+        font-family: "Agent", sans-serif;
+        font-weight: 900;
+        font-size: 2.25rem;
+    }
+
+    ._navigation_offcanvas_body{
+        display: grid;
+        place-items: center;
+  
+        margin-top: 1.25rem;
+        a{
+            all: unset;
+            cursor: pointer;
+            // margin-bottom: 1.75rem;
+            display: inline-block;
+            font-size: 1.75rem;
+            font-weight: 600;
+            font-family: $HEADER_FONT;
+            text-transform: uppercase;
+            transition: all 0.2s ease-in-out;
+
+
+            &:hover{
+                color: $H_GRAY;
+            }
+
+
+
+
+
+
+            @media only screen and (max-width: 767px) { 
+                font-size: 1.5rem;
+            }
+
+
+            @media only screen and (max-width: 576px) { 
+                font-size: 1.25rem;
+            }
+
+
+
+        }
+    }
+}
+
+
+// END
+
+
+
+
+
+
+
+
+
 ._navigation_component_wrapper{
     padding: 0;
     background-color: gray;
@@ -16,7 +90,29 @@
 
 
 
+    ._navigation_hamburger_menu_{
+        display: none;
+        font-size: 3rem;
+        color: $BLACK;
 
+
+        @media only screen and (max-width: 991px) {
+            display: block;
+        }
+
+
+    }
+
+
+
+
+    ._navigation_collapse_{
+        display: block;
+
+        @media only screen and (max-width: 991px) {
+            display: none;
+        }
+    }
 
 
 

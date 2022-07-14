@@ -3,8 +3,23 @@
 
 ._navigation_component_wrapper{
     padding: 0;
-    background-color: transparent;
+    background-color: gray;
     width: 100vw;
+
+
+
+
+    @media only screen and (max-width: 991px) { 
+        padding: 0 1rem;
+    }
+
+
+
+
+
+
+
+
 
     h6{
         cursor: pointer;
@@ -12,6 +27,42 @@
         font-size: 3.25rem;
         font-weight: 900; 
         color: $BLACK;
+
+
+
+
+        @media only screen and (min-width: 2501px){
+          font-size: 5.8rem;
+        }
+    
+        @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+            font-size: 4.8rem;
+        }
+    
+        @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+          font-size: 4.25rem;
+        }
+    
+        @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+           font-size: 3.6rem;
+        }
+    
+    
+        // ############################################################################
+
+
+
+        @media only screen and (max-width: 576px) { 
+            font-size: 2.75rem;
+           
+        }
+
+
+
+
+
+
+
       }
    #_navigation_component_links_ > *{
     cursor: pointer;
@@ -26,8 +77,43 @@
         color: $H_GRAY;
     }
 
+
+    @media only screen and (min-width: 2501px){
+        font-size: 2rem;
+    }
+
+    @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+        font-size: 1.75rem;
+    }
+
+    @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+       font-size: 1.25rem;
+    }
+
+
+    // ############################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    }
 }
+
+// ###################################################################
 
 ._component_wrapper_{
     position: relative;
@@ -36,11 +122,74 @@
     min-height: 100vh;
     background-color: $WHITE;
 
+
+
+
+    // @media only screen and (max-width: 768px) { 
+    //     padding: 2rem 1rem;
+    // }
+
+
+
+
+
     // For Introduction.js file
     ._introduction_box{
         display: grid;
         place-content: center;
         transform: translateY(40%);
+
+
+
+
+        @media only screen and (min-width: 2600px){
+            transform: translateY(60%);
+        }
+
+
+
+
+        @media only screen and (min-width: 2501px) and (max-width: 2599px){
+            transform: translateY(57%);
+        }
+
+
+
+        @media only screen and (min-width: 2301px) and (max-width: 2500px){
+            transform: translateY(60%);
+        }
+
+
+
+
+
+        @media only screen and (min-width: 2201px) and (max-width: 2300px){
+            transform: translateY(50%);
+        }
+
+
+
+
+        @media only screen and (min-width: 2101px) and (max-width: 2200px){
+            transform: translateY(60%);
+        }
+
+
+
+        @media only screen and (min-width: 1900px) and (max-width: 2100px){
+            transform: translateY(50%);
+        }
+
+
+        @media only screen and (min-width: 1600px) and (max-width: 1800px) { 
+            transform: translateY(50%);
+        }
+
+
+
+        // #######################################################################
+
+
 
 
         @media only screen and (max-width: 991px){

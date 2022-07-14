@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useRouter } from "next/router";
+import { MdOutlineMenu } from "react-icons/md";
 
 const Navigation = () => {
   const router = useRouter();
@@ -18,7 +19,9 @@ const Navigation = () => {
           <Navbar.Brand onClick={() => router.push("/")}>
             <h6>JKL</h6>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <MdOutlineMenu />
+          </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto" id={styles._navigation_component_links_}>
               <Nav.Link onClick={() => router.push("/")}>Home</Nav.Link>

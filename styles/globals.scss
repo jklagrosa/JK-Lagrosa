@@ -1,16 +1,30 @@
+@import "../styles/utils.module.scss";
+
+@font-face {
+  font-family: "Agent";
+  src: url("/fonts/agent.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+
 
 * {
   box-sizing: border-box;
+}
+
+
+h1{
+  font-family: "Agent", sans-serif;
 }

@@ -1,10 +1,9 @@
-import { Button } from "react-bootstrap";
+import Navigation from "../components/Nav";
 
 export default function Home() {
   return (
     <>
-      <h1>HELLO WORLD!</h1>
-      <Button>TESTINGGGGG</Button>
+      <Navigation />
     </>
   );
 }

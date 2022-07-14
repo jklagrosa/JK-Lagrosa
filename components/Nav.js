@@ -1,18 +1,35 @@
 import styles from "../styles/COMPONENT.module.scss";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { useRouter } from "next/router";
 
 const Navigation = () => {
+  const router = useRouter();
+
   return (
     <>
-      <div className={styles._component_wrapper_}>
-        Cupidatat aute irure est ex consequat irure amet. Cillum ex dolore
-        mollit labore consequat id enim esse nulla nisi mollit ut laboris
-        nostrud. Mollit reprehenderit et do ut minim eiusmod enim ut voluptate
-        elit incididunt sint in. Sint eiusmod eiusmod aute cillum magna officia
-        reprehenderit voluptate id. Voluptate sint elit ea ex ipsum. Voluptate
-        deserunt dolor Lorem tempor tempor id eu enim veniam et exercitation.
-        Laboris nulla aute enim nostrud laborum cillum cupidatat do culpa sit do
-        occaecat non.
-      </div>
+      <Navbar
+        expand="lg"
+        fixed="top"
+        className={styles._navigation_component_wrapper}
+      >
+        <Container fluid="lg" className="p-0">
+          <Navbar.Brand onClick={() => router.push("/")}>
+            <h6>JKL</h6>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto" id={styles._navigation_component_links_}>
+              <Nav.Link onClick={() => router.push("/")}>Home</Nav.Link>
+              <Nav.Link href="#link">Projects</Nav.Link>
+              <Nav.Link href="#link">About</Nav.Link>
+              <Nav.Link href="#link">Skills</Nav.Link>
+              <Nav.Link href="#link">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </>
   );
 };

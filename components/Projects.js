@@ -7,8 +7,13 @@ const Projects = () => {
       <div className={styles._main_component_wrapper}>
         <Container fluid="lg" className="p-0">
           <h3 className={styles._h3_title}>Projects</h3>
-          <Row className="gx-3 gy-4">
-            <Col xs={12} md={6} id={styles._projects_details_}>
+          <Row className="gx-3 gy-0 mx-auto" id={styles._projects_row_wrapper_}>
+            <Col
+              xs={12}
+              lg={6}
+              id={styles._projects_details_}
+              className="order-2 order-lg-1"
+            >
               <h4 className={styles._projects_title}>
                 LutongBahay | Web Application
               </h4>
@@ -35,14 +40,31 @@ const Projects = () => {
               {/* ACTION BUTTONS */}
 
               <div className={styles._projects_action_buttons_}>
-                <a>Live Demo</a>
-                <a>Source Code</a>
+                <a
+                  href="https://resort-hotel-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/jklagrosa/Resort-Hotel-Web-Application"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                </a>
               </div>
             </Col>
 
             {/* #################### */}
 
-            <Col xs={12} md={6} id={styles._projects_details_}>
+            <Col
+              xs={12}
+              lg={6}
+              id={styles._projects_details_}
+              className="order-1 order-lg-2"
+            >
               {/* <div className={styles._projects_img_}></div> */}
               <a
                 style={{ all: "unset" }}
@@ -57,6 +79,7 @@ const Projects = () => {
               </a>
             </Col>
           </Row>
+          {/* ######################################################################################### */}
         </Container>
       </div>
     </>

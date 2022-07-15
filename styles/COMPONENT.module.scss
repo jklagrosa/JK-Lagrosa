@@ -696,7 +696,14 @@
 
     #_projects_row_wrapper_{
         // ROW WRAPPER
-        margin-bottom: 6rem;
+        margin-bottom: 7rem;
+
+
+        @media only screen and (max-width: 425px){
+            margin-bottom: 4rem;
+        }
+
+
     }
 
 

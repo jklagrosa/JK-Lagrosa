@@ -93,7 +93,14 @@ const Projects = () => {
               </h4>
 
               <p className={styles._projects_paragraph_}>
-               
+                Edukasyon is an online learning web application I built as part
+                of my portfolio. If you want to try this web application, you
+                can login as a demo user. To be redirected to the login page,
+                click the login button, and then click the{" "}
+                <code>
+                  <q>Login as demo user</q>
+                </code>{" "}
+                button.
               </p>
 
               <div className={styles._projects_tags_wrapper_}>
@@ -106,10 +113,18 @@ const Projects = () => {
               {/* ACTION BUTTONS */}
 
               <div className={styles._projects_action_buttons_}>
-                <a href="" target="_blank" rel="noreferrer">
+                <a
+                  href="https://online-learning-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/jklagrosa/Online-Learning-Web-Application"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Source Code
                 </a>
               </div>
@@ -126,7 +141,7 @@ const Projects = () => {
               {/* <div className={styles._projects_img_}></div> */}
               <a
                 style={{ all: "unset" }}
-                href=""
+                href="https://online-learning-web-application.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -153,7 +168,14 @@ const Projects = () => {
               </h4>
 
               <p className={styles._projects_paragraph_}>
-              
+                Retelz is a resort hotel web application I built as part of my
+                portfolio. If you want to try this web application, you can
+                login as a demo user. To be redirected to the login page, click
+                the login button, and then click the{" "}
+                <code>
+                  <q>Login as demo user</q>
+                </code>{" "}
+                button.
               </p>
 
               <div className={styles._projects_tags_wrapper_}>

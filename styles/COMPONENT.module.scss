@@ -678,16 +678,107 @@
     width: 100vw;
     // min-height: 100vh;
     // background-color: $WHITE;
-    background-color: red;
+    // background-color: gray;
 
 
 
     // H3 TAG
-    .h3_title{
+    ._h3_title{
         margin: 0;
+        font-family: $HEADER_FONT;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        color: $BLACK;
     }
     // 
 
+
+
+    // PROJECT COMPONENT
+    #_projects_details_{
+        // background-color: red;
+        ._projects_title{
+            margin: 0;
+            font-weight: 500;
+            font-family: $HEADER_FONT;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: $BLACK;
+        }
+
+
+        ._projects_paragraph_{
+            margin: 0;
+            font-size: 1rem;
+            color: $BLACK;
+        }
+
+        // Projects Tag
+        ._projects_tags_wrapper_{
+            margin-top: 1.5rem;
+
+            span{
+                margin-right: 1rem;
+                font-size: 0.9rem;
+                padding: 0.2rem 0.4rem;
+                color: $BLACK;
+                border-radius: 3px;
+               &:nth-child(1){
+                background-color: #f7e018;
+               }
+
+               &:nth-child(2){
+                background-color: 	#61dbfb;
+             
+               }
+
+               &:nth-child(3){
+                background-color: $BLACK;
+                color: $WHITE
+               }
+
+               &:nth-child(4){
+                background-color: #09934e;
+                color: $WHITE;
+               }
+            }
+        }
+        // End
+
+        // ############################################
+
+        // Action buttons
+        ._projects_action_buttons_{
+            margin-top: 4rem;
+            a{
+                all: unset;
+                cursor: pointer;
+                margin-right: 1rem;
+                font-size: 1rem;
+
+                &:nth-child(1){
+                    text-decoration: underline;
+                    color: #4361ee;
+                }
+
+                
+                &:nth-child(2){
+                    color: $BLACK;
+
+                    &:hover{
+                        text-decoration: underline;
+                        color: #4361ee;
+                    }
+                }
+
+            }
+        }
+        // End
+    }
+    // END
 
 }
 

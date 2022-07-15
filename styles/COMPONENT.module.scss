@@ -688,6 +688,11 @@
     }
 
 
+    @media only screen and (max-width: 425px){
+        padding: 4rem 0.3rem;
+    }
+
+
 
     #_projects_row_wrapper_{
         // ROW WRAPPER
@@ -711,7 +716,37 @@
 
 
 
-        @media only screen and (max-width: 600px) { 
+
+
+
+        @media only screen and (min-width: 2501px){
+            font-size: 5rem;
+        }
+
+        @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+            font-size: 4rem;
+        }
+
+        @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+          font-size: 3.5rem;
+        }
+
+        @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+           font-size: 3rem;
+        }
+
+        // ############################################################
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 600px) {
+            margin-bottom: 2rem; 
             font-size: 2rem;
         }
 
@@ -746,6 +781,26 @@
 
 
 
+
+            @media only screen and (min-width: 2501px){
+                min-height: 800px;
+                object-position: left center;
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+                min-height: 600px;
+                object-position: left center;
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+              min-height: 500px;
+              object-position: left center;
+            }
+    
+
+            // ######################################################################
+
+
             @media only screen and (max-width: 991px){
                 margin-bottom: 1.5rem;
             
@@ -756,15 +811,6 @@
             @media only screen and (max-width: 600px){
                 margin-bottom: 1rem;
             }
-
-
-
-            @media only screen and (max-width: 425px){
-                // min-height: 300px;
-                // object-fit: cover;
-                // object-position: left center;
-            }
-
 
         }
         // END
@@ -781,8 +827,44 @@
             color: $BLACK;
 
 
+
+
+
+
+            @media only screen and (min-width: 2501px){
+                font-size: 3.5rem;
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+                font-size: 3rem;
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+              font-size: 2.5rem;
+            }
+    
+            @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+               font-size: 2rem;
+            }
+    
+            // ############################################################
+
+
+
+
+
+
+
+
+
+
             @media only screen and (max-width: 600px){
                 font-size: 1.25rem;
+            }
+
+
+            @media only screen and (max-width: 425px){
+                font-size: 1rem;
             }
 
         }
@@ -794,6 +876,30 @@
             color: $BLACK;
 
 
+
+
+
+            @media only screen and (min-width: 2501px){
+                font-size: 2rem;
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+                font-size: 1.75rem;
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+              font-size: 1.5rem;
+            }
+    
+            @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+               font-size: 1.25rem;
+            }
+    
+            // ############################################################
+
+
+
+
             
             @media only screen and (max-width: 991px){
                max-width: 800px;
@@ -803,11 +909,41 @@
             @media only screen and (max-width: 600px){
                 font-size: 0.85rem;
             }
+
+            @media only screen and (max-width: 425px){
+                font-size: 0.8rem;
+            }
         }
 
         // Projects Tag
         ._projects_tags_wrapper_{
             margin-top: 1.5rem;
+
+
+
+            @media only screen and (min-width: 2501px){
+                margin-top: 2rem;
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+                margin-top: 2rem;
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+                margin-top: 2rem;
+            }
+
+
+            // ###############################################################
+
+
+
+
+
+
+
+
+
 
             span{
                 margin-right: 1rem;
@@ -835,8 +971,46 @@
                }
 
 
+
+
+
+
+               @media only screen and (min-width: 2501px){
+                font-size: 1.75rem;
+            }
+    
+            @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+                font-size: 1.5rem;
+            }
+    
+            @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+              font-size: 1.25rem;
+            }
+    
+            @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+               font-size: 1rem;
+            }
+    
+            // ############################################################
+
+
+
+
+
+
+
+
+
+
+
+
                @media only screen and (max-width: 600px){
                 font-size: 0.8rem;
+            }
+
+
+            @media only screen and (max-width: 425px){
+                margin-right: 0.8rem;
             }
 
 
@@ -879,8 +1053,49 @@
                 }
 
 
+
+
+
+
+
+
+
+
+                @media only screen and (min-width: 2501px){
+                    font-size: 2rem;
+                }
+        
+                @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+                    font-size: 1.75rem;
+                }
+        
+                @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+                  font-size: 1.5rem;
+                }
+        
+                @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+                   font-size: 1.25rem;
+                }
+        
+                // ############################################################
+
+
+
+
+
+
+
+
+
+
+
+
                 @media only screen and (max-width: 600px){
                     font-size: 0.9rem;
+                }
+
+                @media only screen and (max-width: 425px){
+                    font-size: 0.8rem;
                 }
 
             }

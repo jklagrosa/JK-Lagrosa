@@ -39,12 +39,23 @@ const Projects = () => {
                 <a>Source Code</a>
               </div>
             </Col>
-            {/* <Col xs={12} md={6} id={styles._projects_details_}>
-              Commodo consequat culpa laborum voluptate eiusmod. Ex aute eiusmod
-              magna consequat amet. Reprehenderit sint enim sit qui pariatur
-              ipsum ipsum enim. Ea magna pariatur proident sit duis consectetur
-              dolor ipsum duis ut consectetur irure ipsum.
-            </Col> */}
+
+            {/* #################### */}
+
+            <Col xs={12} md={6} id={styles._projects_details_}>
+              {/* <div className={styles._projects_img_}></div> */}
+              <a
+                style={{ all: "unset" }}
+                href="https://resort-hotel-web-application.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/projects/1/1.png"
+                  className={styles._projects_img_}
+                />
+              </a>
+            </Col>
           </Row>
         </Container>
       </div>

@@ -5,6 +5,7 @@
 ._navigation_offcanvas_wrapper{
     max-width: 300px;
     width: 100%;
+    background-color: $WHITE;
 
 
 
@@ -667,6 +668,27 @@
         // END
     }
     // End
+}
+
+
+// PROJECTS
+
+._main_component_wrapper{
+    padding: 4rem 2rem;
+    width: 100vw;
+    // min-height: 100vh;
+    // background-color: $WHITE;
+    background-color: red;
+
+
+
+    // H3 TAG
+    .h3_title{
+        margin: 0;
+    }
+    // 
+
+
 }
 
 

@@ -1,12 +1,91 @@
+import styles from "../styles/COMPONENT.module.scss";
+import { Container, Row, Col } from "react-bootstrap";
+
 const Skills = () => {
   return (
     <>
-      Excepteur officia nulla qui amet est commodo labore. Cupidatat laborum
-      quis aliquip ad. In qui enim anim excepteur occaecat laboris. Duis sunt
-      eiusmod ullamco est id. Nisi pariatur nulla nulla magna occaecat
-      exercitation do aliquip duis aliquip fugiat aliqua. Officia id veniam
-      mollit et deserunt velit ullamco proident sint ad excepteur pariatur
-      irure.
+      <div className={styles._skills_component_wrapper}>
+        <Container fluid="lg" className="p-0">
+          <h3 className={styles._h3_title}>Skills</h3>
+
+          <div className={styles._skills_box_}>
+            <div className={styles._skills_box_contents_}>
+              <abbr title="JavaScript" style={{ all: "unset" }}>
+                <img
+                  src="/skills/javascript.png"
+                  alt="javascript"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+            <div className={styles._skills_box_contents_}>
+              <abbr title="React" style={{ all: "unset" }}>
+                <img
+                  src="/skills/react.png"
+                  alt="react"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+            <div className={styles._skills_box_contents_}>
+              <abbr title="Next.js" style={{ all: "unset" }}>
+                <img
+                  src="/skills/nextjs.png"
+                  alt="next.js"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+
+            <div className={styles._skills_box_contents_}>
+              <abbr title="MongoDB" style={{ all: "unset" }}>
+                <img
+                  src="/skills/updated_mongodb.png"
+                  alt="mongodb"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+
+            <div className={styles._skills_box_contents_}>
+              <abbr title="Bootstrap" style={{ all: "unset" }}>
+                <img
+                  src="/skills/updated_bootstrap.png"
+                  alt="bootstrap"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+
+            <div className={styles._skills_box_contents_}>
+              <abbr title="Sass" style={{ all: "unset" }}>
+                <img
+                  src="/skills/sass.png"
+                  alt="sass"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+
+            <div className={styles._skills_box_contents_}>
+              <abbr title="Git" style={{ all: "unset" }}>
+                <img
+                  src="/skills/git.png"
+                  alt="git"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+          </div>
+        </Container>
+      </div>
     </>
   );
 };

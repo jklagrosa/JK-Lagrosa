@@ -1130,11 +1130,6 @@
     }
 
 
-    @media only screen and (max-width: 425px){
-        padding: 4rem 0.3rem;
-    }
-
-
 
     #_projects_row_wrapper_{
         // ROW WRAPPER
@@ -1221,16 +1216,18 @@
 
 
         @media only screen and (min-width: 2501px){
-            font-size: 2rem;
+            max-width: 1500px; 
+            font-size: 2.5rem;
         }
 
         @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
-            font-size: 1.75rem;
+            max-width: 1300px; 
+            font-size: 2.25rem;
         }
 
         @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
-            max-width: 900px; 
-            font-size: 2rem;
+            max-width: 1100px; 
+            font-size: 1.8rem;
         }
 
         @media only screen and (min-width: 1400px) and (max-width: 1800px) {
@@ -1245,15 +1242,17 @@
 
         
         @media only screen and (max-width: 991px){
-        //    NEW CSS
+            max-width: 700px;
+            font-size: 1.1rem;
         }
 
-        @media only screen and (max-width: 600px){
-           //    NEW CSS
+        @media only screen and (max-width: 800px){
+           max-width: 600px;
         }
 
-        @media only screen and (max-width: 425px){
-            //    NEW CSS
+        @media only screen and (max-width: 680px){
+            max-width: 500px;
+            font-size: 1rem;
         }
     }
 

@@ -1,7 +1,14 @@
+import { useState } from "react";
 import styles from "../styles/COMPONENT.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false);
+
+  const handleOnSubmit = () => {
+    setLoading(true);
+  };
+
   return (
     <>
       <div className={styles._contact_component_wrapper}>
@@ -53,21 +60,33 @@ const Contact = () => {
               className="order-1 order-lg-2"
               id={styles._contact_column_wrapper_}
             >
-              <form>
+              <form
+                action="https://formsubmit.co/b5df48a9b22a6fe270ef2d0708beb87b"
+                method="POST"
+                onSubmit={handleOnSubmit}
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="PORTFOLIO - Someone has sent you a message."
+                />
+
                 <label>Name</label>
                 <input
                   type="text"
                   required
                   minLength={2}
                   placeholder="e.g. JK Lagrosa"
+                  name="name"
                 />
                 {/* ### */}
                 <label>Email</label>
                 <input
                   type="email"
                   required
-                  minLength={2}
+                  minLength={6}
                   placeholder="e.g. example@gmail.com"
+                  name="email"
                 />
                 {/* ### */}
                 <label>Message</label>
@@ -77,13 +96,26 @@ const Contact = () => {
                   required
                   minLength={2}
                   placeholder="Your message"
+                  name="message"
                 ></textarea>
                 {/* ### */}
-                <button type="submit">Send message</button>
+                {!loading && (
+                  <>
+                    <button type="submit">Send message</button>
+                  </>
+                )}
+                {/* ################################################## */}
+                {loading && (
+                  <>
+                    <button id={styles._loading_submit_btn_} disabled>
+                      Please wait...
+                    </button>
+                  </>
+                )}
 
-                <p className={styles._form_message_error_}>
+                {/* <p className={styles._form_message_error_}>
                   *All fields required.
-                </p>
+                </p> */}
               </form>
             </Col>
           </Row>

@@ -21,9 +21,30 @@ const Contact = () => {
                 gmail accounts are also accessible.
               </p>
 
-              <a className={styles._contact_links_tag_}>LinkedIn</a>
-              <a className={styles._contact_links_tag_}>Github</a>
-              <a className={styles._contact_links_tag_}>Gmail</a>
+              <a
+                href="https://www.linkedin.com/in/jklagrosa/"
+                target="_blank"
+                rel="noreferrer"
+                className={styles._contact_links_tag_}
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/jklagrosa"
+                target="_blank"
+                rel="noreferrer"
+                className={styles._contact_links_tag_}
+              >
+                Github
+              </a>
+              <a
+                href="mailto:jklagrosa.dev@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className={styles._contact_links_tag_}
+              >
+                Gmail
+              </a>
             </Col>
             {/* ### */}
             <Col

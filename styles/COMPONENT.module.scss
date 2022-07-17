@@ -2204,8 +2204,11 @@
 
     ._contact_paragraph_{
         margin: 0;
-        font-size: 1rem;
+        max-width: 520px;
+        width: 100%;
+        font-size: 1.25rem;
         color: $BLACK;
+        margin-bottom: 2rem;
         
 
 
@@ -2234,19 +2237,36 @@
 
 
         
-        @media only screen and (max-width: 991px){
-           max-width: 800px;
-           width: 100%;
-        }
+        // @media only screen and (max-width: 991px){
+        //    width: 100%;
+        // }
 
-        @media only screen and (max-width: 600px){
-            font-size: 0.85rem;
-        }
+        // @media only screen and (max-width: 600px){
+        //     font-size: 0.85rem;
+        // }
 
-        @media only screen and (max-width: 425px){
-            font-size: 0.8rem;
-        }
+        // @media only screen and (max-width: 425px){
+        //     font-size: 0.8rem;
+        // }
     }
+
+
+
+
+
+
+
+    ._contact_links_tag_{
+        
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -2255,11 +2275,93 @@
     ._contact_h5_tag_{
         margin: 0;
         color: $BLACK;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
+        font-family: $HEADER_FONT;
+        margin-bottom: 1rem;
     }
 
 
+    // FORM
+    form{
+        label, input, textarea, button{
+            all: unset;
+            display: block;
+        }
 
+
+
+
+        input, textarea{
+            max-width: 450px;
+            width: 100%;
+        }
+
+
+
+
+
+
+
+
+
+        label{
+            margin-bottom: 0.512rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: $BLACK;
+            font-family: $HEADER_FONT;
+        }
+        input{
+            margin-bottom: 1.5rem;
+            border: 1px solid $BLACK;
+            padding: 0.512rem 1rem;
+            font-size: 1rem;
+            color: $BLACK;
+            border-radius: 5px;
+
+
+
+            &::placeholder{
+                font-size: 1rem;
+                color: $H_GRAY;
+            }
+
+        }
+
+        textarea{
+            margin-bottom: 1.5rem;
+            border: 1px solid $BLACK;
+            padding: 0.512rem 1rem;
+            font-size: 1rem;
+            color: $BLACK;
+            border-radius: 5px;
+        }
+
+        button{
+            margin-bottom: 1rem;
+            background-color: $BLACK;
+            color: $WHITE;
+            padding: 0.512rem 1rem;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+
+
+            &:hover{
+                background-color: $H_BLACK;
+            }
+
+        }
+
+        // FORM MESSAGE ERROR
+        ._form_message_error_{
+            margin: 0;
+            font-size: 1rem;
+            color: red;
+            font-style: italic;
+        }
+        // END
+    }
+    // END
 
 
 

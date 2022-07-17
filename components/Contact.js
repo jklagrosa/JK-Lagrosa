@@ -1,11 +1,25 @@
+import styles from "../styles/COMPONENT.module.scss";
+import { Container, Row, Col } from "react-bootstrap";
+
 const Contact = () => {
   return (
     <>
-      Laborum ipsum ipsum irure occaecat adipisicing labore reprehenderit magna
-      consequat nostrud fugiat. Exercitation ut veniam veniam excepteur aute
-      aute qui reprehenderit ut cupidatat. Adipisicing commodo esse aliqua quis
-      nulla fugiat proident ea culpa officia fugiat. Exercitation anim excepteur
-      proident sint do duis esse eiusmod ea pariatur.
+      <div className={styles._contact_component_wrapper}>
+        <Container fluid="lg" className="p-0">
+          <h3 className={styles._h3_title}>Contact</h3>
+
+          <Row className="gx-3 gy-4 mx-auto">
+            <Col xs={12} lg={8} className="order-2 order-lg-1">
+              <h5 className={styles._contact_h5_tag_}>Let&apos;s talk</h5>
+              <p className={styles._contact_paragraph_}></p>
+            </Col>
+            {/* ### */}
+            <Col xs={12} lg={4} className="order-1 order-lg-2">
+              <form></form>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };

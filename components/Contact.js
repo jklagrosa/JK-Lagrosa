@@ -9,7 +9,12 @@ const Contact = () => {
           <h3 className={styles._h3_title}>Contact</h3>
 
           <Row className="gx-3 gy-4 mx-auto">
-            <Col xs={12} lg={6} className="order-2 order-lg-1">
+            <Col
+              xs={12}
+              lg={6}
+              className="order-2 order-lg-1"
+              id={styles._contact_column_wrapper_}
+            >
               <h5 className={styles._contact_h5_tag_}>Let&apos;s talk</h5>
               <p className={styles._contact_paragraph_}>
                 Do you have a question or proposal? My linkedin, github, and
@@ -21,7 +26,12 @@ const Contact = () => {
               <a className={styles._contact_links_tag_}>Gmail</a>
             </Col>
             {/* ### */}
-            <Col xs={12} lg={6} className="order-1 order-lg-2">
+            <Col
+              xs={12}
+              lg={6}
+              className="order-1 order-lg-2"
+              id={styles._contact_column_wrapper_}
+            >
               <form>
                 <label>Name</label>
                 <input

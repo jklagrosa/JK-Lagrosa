@@ -2125,7 +2125,7 @@
 
 
     @media only screen and (max-width: 425px){
-        padding: 4rem 0.3rem;
+        padding: 4rem 0.512rem;
     }
 
 
@@ -2237,18 +2237,35 @@
 
 
         
-        // @media only screen and (max-width: 991px){
-        //    width: 100%;
-        // }
+        @media only screen and (max-width: 991px){
+           font-size: 1.1rem;
+        }
 
-        // @media only screen and (max-width: 600px){
-        //     font-size: 0.85rem;
-        // }
+        @media only screen and (max-width: 680px){
+            font-size: 1rem;
+        }
 
-        // @media only screen and (max-width: 425px){
-        //     font-size: 0.8rem;
-        // }
+   
     }
+
+
+
+
+
+    // COL WRAPPER
+        #_contact_column_wrapper_{
+
+              
+        @media only screen and (max-width: 991px){
+            display: grid;
+            place-content: center;
+        }
+
+
+        }
+    // END
+
+
 
 
 
@@ -2257,7 +2274,25 @@
 
 
     ._contact_links_tag_{
-        
+        cursor: pointer;
+        margin-right: 1.25rem;
+        font-size: 1.25rem;
+
+
+        @media only screen and (max-width: 991px){
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+
+        @media only screen and (max-width: 991px){
+            font-size: 1.1rem;
+         }
+ 
+         @media only screen and (max-width: 680px){
+             font-size: 1rem;
+         }
+
     }
 
 
@@ -2278,6 +2313,13 @@
         font-size: 1.75rem;
         font-family: $HEADER_FONT;
         margin-bottom: 1rem;
+
+
+        @media only screen and (max-width: 991px){
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+
     }
 
 
@@ -2294,14 +2336,26 @@
         input, textarea{
             max-width: 450px;
             width: 100%;
+
+
+            @media only screen and (max-width: 1199px) {
+                max-width: 400px;
+             }
+
+
+             @media only screen and (max-width: 991px){
+               width: 700px;
+             }
+
+             @media only screen and (max-width: 510px){
+                width: 300px;
+             }
+
+             @media only screen and (max-width: 380px){
+                width: 250px;
+             }
+            
         }
-
-
-
-
-
-
-
 
 
         label{
@@ -2310,11 +2364,17 @@
             font-weight: 500;
             color: $BLACK;
             font-family: $HEADER_FONT;
+
+
+            
+
+
         }
         input{
             margin-bottom: 1.5rem;
             border: 1px solid $BLACK;
-            padding: 0.512rem 1rem;
+            padding: 0.64rem 1rem;
+           
             font-size: 1rem;
             color: $BLACK;
             border-radius: 5px;
@@ -2326,12 +2386,14 @@
                 color: $H_GRAY;
             }
 
+          
+
         }
 
         textarea{
             margin-bottom: 1.5rem;
             border: 1px solid $BLACK;
-            padding: 0.512rem 1rem;
+            padding: 0.64rem 1rem;
             font-size: 1rem;
             color: $BLACK;
             border-radius: 5px;
@@ -2341,7 +2403,7 @@
             margin-bottom: 1rem;
             background-color: $BLACK;
             color: $WHITE;
-            padding: 0.512rem 1rem;
+            padding: 0.64rem 1rem;
             border-radius: 5px;
             transition: all 0.2s ease-in-out;
 

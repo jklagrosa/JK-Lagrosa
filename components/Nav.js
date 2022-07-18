@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "../styles/COMPONENT.module.scss";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -9,10 +9,23 @@ import { MdOutlineMenu } from "react-icons/md";
 
 const Navigation = () => {
   const [show, setShow] = useState(false);
+  const [colorChange, setColorChange] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const router = useRouter();
+
+  useEffect(() => {
+    const changeNavbarColor = () => {
+      if (window.scrollY >= 100) {
+        setColorChange(true);
+      } else {
+        setColorChange(false);
+      }
+    };
+
+    window.addEventListener("scroll", changeNavbarColor);
+  }, [colorChange]);
 
   return (
     <>
@@ -20,6 +33,11 @@ const Navigation = () => {
         expand="lg"
         fixed="top"
         className={styles._navigation_component_wrapper}
+        id={
+          colorChange
+            ? styles._CHANGED_ON_SCROLL_navigation_component_wrapper
+            : ""
+        }
       >
         <Container fluid="lg" className="p-0">
           <Navbar.Brand onClick={() => router.push("/")}>
@@ -76,6 +94,6 @@ const Navigation = () => {
       </Offcanvas>
     </>
   );
-}; 
+};
 
 export default Navigation;

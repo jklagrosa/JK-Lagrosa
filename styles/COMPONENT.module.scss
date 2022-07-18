@@ -69,18 +69,162 @@
 // END
 
 
+// CHANGE NAVBAR BG ON SCROLL
+#_CHANGED_ON_SCROLL_navigation_component_wrapper{
+    padding: 0;
+    background-color: $BLACK;
+    width: 100vw;
+    transition: all 0.3s ease-in-out;
 
 
 
+
+    @media only screen and (max-width: 991px) { 
+        padding: 0 1rem;
+    }
+
+
+
+
+    ._navigation_hamburger_menu_{
+        display: none;
+        font-size: 2.5rem;
+        color: $WHITE;
+
+
+        @media only screen and (max-width: 991px) {
+            display: block;
+        }
+
+
+    }
+
+
+
+
+    ._navigation_collapse_{
+        display: block;
+
+        @media only screen and (max-width: 991px) {
+            display: none;
+        }
+    }
+
+
+
+
+    h6{
+        cursor: pointer;
+        font-family: "Agent", sans-serif;
+        font-size: 3.25rem;
+        font-weight: 900; 
+        color: $WHITE;
+
+
+
+
+        @media only screen and (min-width: 2501px){
+          font-size: 5.8rem;
+        }
+    
+        @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+            font-size: 4.8rem;
+        }
+    
+        @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+          font-size: 4.25rem;
+        }
+    
+        @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+           font-size: 3.6rem;
+        }
+    
+    
+        // ############################################################################
+
+
+        // @media only screen and (max-width: 991px){
+        //     margin: 0;
+        // }
+
+
+
+        @media only screen and (max-width: 576px) { 
+            font-size: 2.75rem; 
+        }
+
+
+        @media only screen and (max-width: 425px) { 
+           
+            font-size: 2.25rem; 
+        }
+
+
+
+
+
+      }
+   #_navigation_component_links_ > *{
+    cursor: pointer;
+    color: $WHITE;
+    font-family: $HEADER_FONT;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+
+
+    &:hover{
+        color: $H_GRAY;
+    }
+
+
+    @media only screen and (min-width: 2501px){
+        font-size: 2rem;
+    }
+
+    @media only screen and (min-width: 2201px) and (max-width: 2500px) { 
+        font-size: 1.75rem;
+    }
+
+    @media only screen and (min-width: 1801px) and (max-width: 2200px) { 
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (min-width: 1400px) and (max-width: 1800px) { 
+       font-size: 1.25rem;
+    }
+
+
+    // ############################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+}
+
+// END
+
+// #########################################################################
 
 
 
 
 ._navigation_component_wrapper{
     padding: 0;
-    background-color: gray;
+    background-color: transparent;
     width: 100vw;
-
+    transition: all 0.3s ease-in-out;
 
 
 
@@ -148,9 +292,9 @@
         // ############################################################################
 
 
-        @media only screen and (max-width: 991px){
-            margin: 0;
-        }
+        // @media only screen and (max-width: 991px){
+        //     margin: 0;
+        // }
 
 
 
@@ -2486,12 +2630,17 @@
 
 
             @media only screen and (max-width: 425px){
-                width: 300px;
+                width: 340px;
             }
 
 
             @media only screen and (max-width: 380px){
-                width: 250px;
+                width: 300px;
+            }
+
+
+            @media only screen and (max-width: 350px){
+                width: 280px;
             }
 
 
@@ -2503,6 +2652,26 @@
         @media only screen and (max-width: 576px){
             margin-top: 1.25rem;
           text-align: center;
+        }
+
+
+        @media only screen and (max-width: 425px){
+            text-align: left;
+            margin-left: 2.5rem;
+        }
+
+        @media only screen and (max-width: 400px){
+            margin-left: 1.75rem;
+        }
+
+
+        @media only screen and (max-width: 380px){
+            margin-left: 2.25rem;
+        }
+
+
+        @media only screen and (max-width: 330px){
+            margin-left: 1.25rem;
         }
 
 

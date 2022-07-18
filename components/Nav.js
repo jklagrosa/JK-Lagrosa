@@ -76,6 +76,6 @@ const Navigation = () => {
       </Offcanvas>
     </>
   );
-};
+}; 
 
 export default Navigation;

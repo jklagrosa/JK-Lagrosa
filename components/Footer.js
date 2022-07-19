@@ -126,15 +126,6 @@ const Footer = () => {
                   Next.js
                 </a>
                 <br />
-                <a
-                  href="https://www.mongodb.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className={styles._footer_links_tag_}
-                >
-                  MongoDB
-                </a>
-                <br />
               </div>
             </Col>
             {/* ### */}

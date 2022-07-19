@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Skills = () => {
   return (
     <>
-      <div className={styles._skills_component_wrapper}>
+      <div className={styles._skills_component_wrapper} id="skills">
         <Container fluid="lg" className="p-0">
           <h3 className={styles._h3_title}>Skills</h3>
 

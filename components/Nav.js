@@ -41,7 +41,9 @@ const Navigation = () => {
       >
         <Container fluid="lg" className="p-0">
           <Navbar.Brand onClick={() => router.push("/")}>
-            <h6>JKL</h6>
+            <abbr title="JK Lagrosa - Home" style={{ all: "unset" }}>
+              <h6>JKL</h6>
+            </abbr>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
@@ -72,6 +74,7 @@ const Navigation = () => {
       <Offcanvas
         show={show}
         onHide={handleClose}
+        scroll="true"
         className={styles._navigation_offcanvas_wrapper}
       >
         <Offcanvas.Header closeButton>

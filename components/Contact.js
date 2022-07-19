@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className={styles._contact_component_wrapper}>
+      <div className={styles._contact_component_wrapper} id="contact">
         <Container fluid="lg" className="p-0">
           <h3 className={styles._h3_title}>Contact</h3>
 

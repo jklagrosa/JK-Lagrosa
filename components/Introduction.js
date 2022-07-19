@@ -15,8 +15,13 @@ const Introduction = () => {
             </p>
 
             <div className={styles._introduction_box_btn_wrapper}>
-              <button>View Projects</button>
-              <button>Contact Me</button>
+              <a href="#projects" className={styles._introduction_main_btns_}>
+                View Projects
+              </a>
+
+              <a href="#contact" className={styles._introduction_main_btns_}>
+                Contact Me
+              </a>
             </div>
           </div>
         </Container>

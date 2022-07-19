@@ -720,9 +720,10 @@
 
 
 
-
-            button{
+            // BUTTON ACTIONS
+            ._introduction_main_btns_{
                 all: unset;
+                display: inline-block;
                 margin-right: 0.8rem;
                 cursor: pointer;
                 border-radius: 5px;
@@ -3562,13 +3563,16 @@
 #_footer_row_wrapper_{
 #_footer_cols_wrapper_{
 
-    ._footer_logo_icon_{
+    ._footer_logo_icon_{ 
         margin: 0;
         font-family: "Agent", sans-serif;
         font-weight: 900;
         font-size: 3.25rem;
         color: $WHITE;
         margin-bottom: 1rem;
+
+
+        cursor: pointer;
 
 
 

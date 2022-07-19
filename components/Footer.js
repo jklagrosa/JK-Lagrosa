@@ -1,14 +1,24 @@
 import styles from "../styles/COMPONENT.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
+import { useRouter } from "next/router";
 
 const Footer = () => {
+  const router = useRouter();
+
   return (
     <>
       <div className={styles._footer_component_wrapper}>
         <Container fluid="lg" className="p-0">
           <Row className="gx-3 gy-5 mx-auto" id={styles._footer_row_wrapper_}>
             <Col xs={12} md={6} lg={6} id={styles._footer_cols_wrapper_}>
-              <h1 className={styles._footer_logo_icon_}>JKL</h1>
+              <abbr title="JK Lagrosa - Scroll to top" style={{ all: "unset" }}>
+                <h1
+                  className={styles._footer_logo_icon_}
+                  onClick={() => router.push("/")}
+                >
+                  JKL
+                </h1>
+              </abbr>
               <p className={styles._footer_desc_}>
                 I designed and developed websites and web applications with a
                 focus on usability, accessibility, and performance. Using

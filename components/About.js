@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const About = () => {
   return (
     <>
-      <div className={styles._about_component_wrapper}>
+      <div className={styles._about_component_wrapper} id="about">
         <Container fluid="lg" className="p-0">
           <h3 className={styles._h3_title}>About</h3>
 

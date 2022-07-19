@@ -78,7 +78,7 @@ const Contact = () => {
 
               <div className={styles._contact_anchor_tags_wrapper_}>
                 <a
-                  href=""
+                  href="https://www.linkedin.com/in/jklagrosa/"
                   target="_blank"
                   rel="noreferrer"
                   className={styles._contact_anchor_tags_}
@@ -86,7 +86,7 @@ const Contact = () => {
                   LinkedIn
                 </a>
                 <a
-                  href=""
+                  href="https://github.com/jklagrosa"
                   target="_blank"
                   rel="noreferrer"
                   className={styles._contact_anchor_tags_}
@@ -94,7 +94,7 @@ const Contact = () => {
                   Github
                 </a>
                 <a
-                  href=""
+                  href="mailto:jklagrosa.dev@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className={styles._contact_anchor_tags_}

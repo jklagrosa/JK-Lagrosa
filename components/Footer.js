@@ -1,17 +1,44 @@
 import styles from "../styles/COMPONENT.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import { useRouter } from "next/router";
 
 const Footer = () => {
-  const router = useRouter();
-
   return (
     <>
       <div className={styles._footer_component_wrapper}>
         <Container fluid="lg" className="p-0">
           <Row className="gx-3 gy-5 mx-auto" id={styles._footer_row_wrapper_}>
-            <Col xs={12} md={6} lg={6} id={styles._footer_cols_wrapper_}>
-              <abbr title="JK Lagrosa - Scroll to top" style={{ all: "unset" }}>
+            <Col xs={12} md={6} lg={4} id={styles._footer_cols_wrapper_}>
+              <h6 className={styles._footer_h6_header_}>Project Links</h6>
+              <div className={styles._footer_links_tag_wrapper_}>
+                <a
+                  href="https://food-delivery-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles._footer_links_tag_}
+                >
+                  Lutongbahay
+                </a>
+                <br />
+                <a
+                  href="https://online-learning-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles._footer_links_tag_}
+                >
+                  Edukasyon
+                </a>
+                <br />
+                <a
+                  href="https://resort-hotel-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles._footer_links_tag_}
+                >
+                  Retelz
+                </a>
+                <br />
+              </div>
+              {/* <abbr title="JK Lagrosa - Scroll to top" style={{ all: "unset" }}>
                 <h1
                   className={styles._footer_logo_icon_}
                   onClick={() => router.push("/")}
@@ -24,10 +51,10 @@ const Footer = () => {
                 focus on usability, accessibility, and performance. Using
                 technologies such as HTML/CSS, JavaScript, React, Next.js,
                 MongoDB, Bootstrap, and Sass.
-              </p>
+              </p> */}
             </Col>
             {/* ### */}
-            <Col xs={12} md={6} lg={3} id={styles._footer_cols_wrapper_}>
+            <Col xs={12} md={6} lg={4} id={styles._footer_cols_wrapper_}>
               <h6 className={styles._footer_h6_header_}>Contact me</h6>
               <div className={styles._footer_links_tag_wrapper_}>
                 <a
@@ -60,7 +87,7 @@ const Footer = () => {
               </div>
             </Col>
             {/* ### */}
-            <Col xs={12} md={6} lg={3} id={styles._footer_cols_wrapper_}>
+            <Col xs={12} md={6} lg={4} id={styles._footer_cols_wrapper_}>
               <h6 className={styles._footer_h6_header_}>Tech Used</h6>
               <div className={styles._footer_links_tag_wrapper_}>
                 <a

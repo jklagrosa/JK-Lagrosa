@@ -104,22 +104,6 @@ const Contact = () => {
               </div>
             </div>
           </form>
-
-          {/* <div className={styles._contact_other_accounts_wrapper_}>
-            <p>
-              Do you have a question or proposal? My linkedin, github, and gmail
-              accounts are also accessible.
-            </p>
-            <a href="" target="_blank" rel="noreferrer">
-              LinkedIn
-            </a>
-            <a href="" target="_blank" rel="noreferrer">
-              Github
-            </a>
-            <a href="" target="_blank" rel="noreferrer">
-              Gmail
-            </a>
-          </div> */}
         </Container>
       </div>
     </>

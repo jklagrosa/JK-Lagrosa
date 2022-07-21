@@ -1,6 +1,6 @@
 import styles from "../styles/COMPONENT.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
-
+ 
 const Projects = () => {
   return (
     <>

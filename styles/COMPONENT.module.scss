@@ -97,6 +97,16 @@
         }
 
 
+
+        @media only screen and (max-width: 768px) {
+            font-size: 2rem;
+        }
+
+
+        @media only screen and (max-width: 576px) {
+            font-size: 1.75rem;
+        }
+
     }
 
 
@@ -148,15 +158,14 @@
         // }
 
 
-
-        @media only screen and (max-width: 576px) { 
-            font-size: 2.75rem; 
+        @media only screen and (max-width: 768px) {
+            font-size: 2.25rem;
         }
 
 
-        @media only screen and (max-width: 425px) { 
-           
-            font-size: 2.25rem; 
+
+        @media only screen and (max-width: 576px) { 
+            font-size: 2rem; 
         }
 
 
@@ -246,6 +255,15 @@
         }
 
 
+        @media only screen and (max-width: 768px) {
+            font-size: 2rem;
+        }
+
+
+        @media only screen and (max-width: 576px) {
+            font-size: 1.75rem;
+        }
+
     }
 
 
@@ -297,15 +315,18 @@
         // }
 
 
+        @media only screen and (max-width: 768px) {
+            font-size: 2.25rem;
 
-        @media only screen and (max-width: 576px) { 
-            font-size: 2.75rem; 
+            // color: red;
         }
 
 
-        @media only screen and (max-width: 425px) { 
-           
-            font-size: 2.25rem; 
+
+        @media only screen and (max-width: 576px) { 
+            font-size: 2rem; 
+
+            // color: red;
         }
 
 
@@ -2623,6 +2644,20 @@
 
             // ##############################################################
 
+
+            @media only screen and (max-width: 600px){
+                font-size: 0.85rem;
+
+                // color: red;
+            }
+
+
+
+
+
+
+
+
             @media only screen and (max-width: 576px){
                 margin: 0 auto;
                 width: 350px;
@@ -2631,6 +2666,7 @@
 
 
             @media only screen and (max-width: 425px){
+                font-size: 0.8rem;
                 width: 340px;
             }
 
@@ -2643,8 +2679,6 @@
             @media only screen and (max-width: 350px){
                 width: 280px;
             }
-
-
         }
 
     ._contact_anchor_tags_wrapper_{
@@ -2708,6 +2742,32 @@
             display: inline-block;
             margin-right: 1rem;
            font-size: 1rem;
+
+
+
+
+
+
+           @media only screen and (max-width: 600px){
+            font-size: 0.85rem;
+
+            // color: red;
+        }
+
+        @media only screen and (max-width: 425px){
+            font-size: 0.8rem;
+
+            // color: red;
+
+        }
+
+
+
+
+
+
+
+
         }
 
     }
@@ -2841,6 +2901,15 @@
 
 
             // #############################################################
+
+
+            @media only screen and (max-width: 600px){
+                font-size: 0.85rem;
+            }
+
+
+
+
             
             @media only screen and (max-width: 576px){
                 margin-left: 7rem;
@@ -2866,6 +2935,17 @@
             }
 
 
+
+
+            @media only screen and (max-width: 425px){
+                font-size: 0.8rem;
+            }
+
+
+
+
+
+
             @media only screen and (max-width: 340px){
                 margin-left: 1rem;
             }
@@ -2874,6 +2954,11 @@
             @media only screen and (max-width: 321px){
                 margin-left: 0.64rem;
             }
+
+
+
+
+          
 
 
         }
@@ -2911,6 +2996,26 @@
     
     
                 // #############################################################
+
+
+
+                @media only screen and (max-width: 600px){
+                    font-size: 0.85rem;
+    
+                    // color: red;
+                }
+    
+                @media only screen and (max-width: 425px){
+                    font-size: 0.8rem;
+    
+                    // color: red;
+    
+                }
+
+
+
+
+
             }
 
 
@@ -2952,6 +3057,20 @@
             border-radius: 5px;
 
 
+            &::placeholder{
+                @media only screen and (max-width: 600px){
+                    font-size: 0.85rem;
+    
+                    // color: red;
+                }
+    
+                @media only screen and (max-width: 425px){
+                    font-size: 0.8rem;
+    
+                    // color: red;
+    
+                }
+            }
 
 
 
@@ -3025,6 +3144,11 @@
 
             // #############################################################
 
+            @media only screen and (max-width: 600px){
+                font-size: 0.85rem;
+
+                // color: red;
+            }
 
 
             @media only screen and (max-width: 576px){
@@ -3053,6 +3177,17 @@
 
 
 
+
+            @media only screen and (max-width: 425px){
+                font-size: 0.8rem;
+
+                // color: red;
+
+            }
+
+
+
+
             @media only screen and (max-width: 340px){
                 margin-left: 1rem;
             }
@@ -3061,7 +3196,6 @@
             @media only screen and (max-width: 321px){
                 margin-left: 0.64rem;
             }
-
 
         }
 

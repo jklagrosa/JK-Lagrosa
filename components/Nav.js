@@ -28,7 +28,7 @@ const Navigation = () => {
   }, [colorChange]);
 
   return (
-    <>
+    <> 
       <Navbar
         expand="lg"
         fixed="top"

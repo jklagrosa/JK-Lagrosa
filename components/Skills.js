@@ -19,6 +19,18 @@ const Skills = () => {
               </abbr>
             </div>
             {/* ### */}
+
+            <div className={styles._skills_box_contents_}>
+              <abbr title="TypeScript" style={{ all: "unset" }}>
+                <img
+                  src="/skills/typescript.png"
+                  alt="typescript"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+
             <div className={styles._skills_box_contents_}>
               <abbr title="React" style={{ all: "unset" }}>
                 <img
@@ -41,6 +53,17 @@ const Skills = () => {
             {/* ### */}
 
             <div className={styles._skills_box_contents_}>
+              <abbr title="GraphQL" style={{ all: "unset" }}>
+                <img
+                  src="/skills/graphql.png"
+                  alt="graphql"
+                  className={styles._skills_icons_}
+                />
+              </abbr>
+            </div>
+            {/* ### */}
+
+            {/* <div className={styles._skills_box_contents_}>
               <abbr title="MongoDB" style={{ all: "unset" }}>
                 <img
                   src="/skills/updated_mongodb.png"
@@ -48,18 +71,7 @@ const Skills = () => {
                   className={styles._skills_icons_}
                 />
               </abbr>
-            </div>
-            {/* ### */}
-
-            <div className={styles._skills_box_contents_}>
-              <abbr title="Bootstrap" style={{ all: "unset" }}>
-                <img
-                  src="/skills/updated_bootstrap.png"
-                  alt="bootstrap"
-                  className={styles._skills_icons_}
-                />
-              </abbr>
-            </div>
+            </div> */}
             {/* ### */}
 
             <div className={styles._skills_box_contents_}>

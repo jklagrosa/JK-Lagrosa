@@ -12,9 +12,9 @@ const About = () => {
             Hi, my name is JK Lagrosa, and I&apos;m a Front-end web developer. I
             designed and developed websites and web applications with a focus on
             usability, accessibility, and performance. Using technologies such
-            as HTML/CSS, JavaScript, React, Next.js, MongoDB, Bootstrap, and
-            Sass. I&apos;m passionate about building responsive, dynamic,
-            SEO-friendly websites and web apps.
+            as HTML/CSS, JavaScript, TypeScript, React, Next.js, MongoDB,
+            GraphQL, Bootstrap, and Sass. I&apos;m passionate about building
+            responsive, dynamic, SEO-friendly websites and web apps.
           </p>
         </Container>
       </div>

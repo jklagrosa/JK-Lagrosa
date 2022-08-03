@@ -1,6 +1,6 @@
 import styles from "../styles/COMPONENT.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
- 
+
 const Projects = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Projects = () => {
               className="order-2 order-lg-1"
             >
               <h4 className={styles._projects_title}>
-                LutongBahay | Web Application
+                LutongBahay • Web Application
               </h4>
 
               <p className={styles._projects_paragraph_}>
@@ -89,7 +89,7 @@ const Projects = () => {
               className="order-2 order-lg-1"
             >
               <h4 className={styles._projects_title}>
-                Edukasyon | Web Application
+                Edukasyon • Web Application
               </h4>
 
               <p className={styles._projects_paragraph_}>
@@ -164,7 +164,7 @@ const Projects = () => {
               className="order-2 order-lg-1"
             >
               <h4 className={styles._projects_title}>
-                Retelz | Web Application
+                Retelz • Web Application
               </h4>
 
               <p className={styles._projects_paragraph_}>

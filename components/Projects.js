@@ -153,7 +153,79 @@ const Projects = () => {
             </Col>
           </Row>
           {/* ######################################################################################### */}
+          <Row className="gx-3 gy-0 mx-auto" id={styles._projects_row_wrapper_}>
+            <Col
+              xs={12}
+              lg={6}
+              id={styles._projects_details_}
+              className="order-2 order-lg-1"
+            >
+              <h4 className={styles._projects_title}>
+                Pelikula • Web Application
+              </h4>
 
+              <p className={styles._projects_paragraph_}>
+                Pelikula is a streaming service web application I built as part
+                of my portfolio. If you want to try this web application, you
+                can login as a demo user. To be redirected to the login page,
+                click the login button, and then click the{" "}
+                <code>
+                  <q>Login as demo user</q>
+                </code>{" "}
+                button.
+              </p>
+
+              <div className={styles._projects_tags_wrapper_}>
+                <span style={{ background: "#2d79c7", color: "white" }}>
+                  TypeScript
+                </span>
+                <span>React</span>
+                <span>Next.js</span>
+                <span>MongoDB</span>
+              </div>
+
+              {/* ACTION BUTTONS */}
+
+              <div className={styles._projects_action_buttons_}>
+                <a
+                  href="https://streaming-service-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/jklagrosa/Streaming-Service-Web-Application"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                </a>
+              </div>
+            </Col>
+
+            {/* #################### */}
+
+            <Col
+              xs={12}
+              lg={6}
+              id={styles._projects_details_}
+              className="order-1 order-lg-2"
+            >
+              {/* <div className={styles._projects_img_}></div> */}
+              <a
+                style={{ all: "unset" }}
+                href="https://streaming-service-web-application.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/projects/1/4.png"
+                  className={styles._projects_img_}
+                />
+              </a>
+            </Col>
+          </Row>
           {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
 
           <Row className="gx-3 gy-0 mx-auto" id={styles._projects_row_wrapper_}>

@@ -28,6 +28,16 @@ const Footer = () => {
                   Edukasyon
                 </a>
                 <br />
+
+                <a
+                  href="https://streaming-service-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles._footer_links_tag_}
+                >
+                  Pelikula
+                </a>
+                <br />
                 <a
                   href="https://resort-hotel-web-application.vercel.app/"
                   target="_blank"

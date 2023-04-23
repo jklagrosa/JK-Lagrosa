@@ -10,7 +10,7 @@ const Introduction = () => {
             <h2>JK LAGROSA</h2>
             <h1>FRONT-END DEVELOPER</h1>
             <p>
-              I designed and developed websites and web applications with a
+              I design and develop websites and web applications with a
               focus on usability, accessibility, and performance.
             </p>
 

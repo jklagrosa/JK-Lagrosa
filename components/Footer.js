@@ -48,20 +48,6 @@ const Footer = () => {
                 </a>
                 <br />
               </div>
-              {/* <abbr title="JK Lagrosa - Scroll to top" style={{ all: "unset" }}>
-                <h1
-                  className={styles._footer_logo_icon_}
-                  onClick={() => router.push("/")}
-                >
-                  JKL
-                </h1>
-              </abbr>
-              <p className={styles._footer_desc_}>
-                I designed and developed websites and web applications with a
-                focus on usability, accessibility, and performance. Using
-                technologies such as HTML/CSS, JavaScript, React, Next.js,
-                MongoDB, Bootstrap, and Sass.
-              </p> */}
             </Col>
             {/* ### */}
             <Col xs={12} md={6} lg={4} id={styles._footer_cols_wrapper_}>

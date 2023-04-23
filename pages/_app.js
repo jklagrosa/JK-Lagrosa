@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <title>JK Lagrosa • Front-End Web Developer, Philippines</title>
         <meta
           name="description"
-          content="Hi, my name is JK Lagrosa, and I'm a Front-end web developer from the Philippines. I designed and developed websites and web applications with a focus on usability, accessibility, and performance. Using technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, MongoDB, GraphQL, Bootstrap, and Sass. I'm passionate about building responsive, dynamic, SEO-friendly websites and web apps."
+          content="Hi, my name is JK Lagrosa, and I'm a Front-end web developer from the Philippines. I design and develop websites and web applications with a focus on usability, accessibility, and performance. Using technologies such as HTML, CSS, JavaScript, TypeScript, React, Next.js, MongoDB, GraphQL, Bootstrap, and Sass. I'm passionate about building responsive, dynamic, SEO-friendly websites and web apps."
         />
       </Head>
       <Component {...pageProps} />

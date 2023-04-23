@@ -10,7 +10,7 @@ const About = () => {
 
           <p className={styles._about_paragraph_}>
             Hi, my name is JK Lagrosa, and I&apos;m a Front-end web developer. I
-            designed and developed websites and web applications with a focus on
+            design and develop websites and web applications with a focus on
             usability, accessibility, and performance. Using technologies such
             as HTML/CSS, JavaScript, TypeScript, React, Next.js, MongoDB,
             GraphQL, Bootstrap, and Sass. I&apos;m passionate about building

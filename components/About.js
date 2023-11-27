@@ -9,7 +9,7 @@ const About = () => {
           <h3 className={styles._h3_title}>About</h3>
 
           <p className={styles._about_paragraph_}>
-            Hi, my name is JK Lagrosa, and I&apos;m a Front-end web developer. I
+            Hi, my name is JK Lagrosa, and I&apos;m a web developer. I
             design and develop websites and web applications with a focus on
             usability, accessibility, and performance. Using technologies such
             as HTML/CSS, JavaScript, TypeScript, React, Next.js, MongoDB,

@@ -8,10 +8,10 @@ const Introduction = () => {
         <Container fluid="lg" className="p-0">
           <div className={styles._introduction_box}>
             <h2>JK LAGROSA</h2>
-            <h1>FRONT-END DEVELOPER</h1>
+            <h1>WEB DEVELOPER</h1>
             <p>
-              I design and develop websites and web applications with a
-              focus on usability, accessibility, and performance.
+              I design and develop websites and web applications with a focus on
+              usability, accessibility, and performance.
             </p>
 
             <div className={styles._introduction_box_btn_wrapper}>
